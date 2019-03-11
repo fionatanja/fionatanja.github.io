@@ -1,0 +1,79 @@
+/* MOBILE */
+html, body {
+  background-color: white;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+span {
+  background-color: pink;
+}
+
+a {
+  color: inherit;
+  background-color: yellow;
+  text-decoration: inherit;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+  html, body {
+    padding-top: 15px;
+    padding-left: 30px;
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .col-s {
+    width: 25%;
+  }
+  .col-m {
+    width: 700px;
+  }
+  .col-l {
+    width: 100%;
+  }
+
+  .block{
+    border-left: 10px solid pink;
+    padding: 0px 20px;
+}
