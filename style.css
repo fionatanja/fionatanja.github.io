@@ -26,23 +26,21 @@ h2 {
 a {
   color: inherit;
   font-style: inherit;
+  font-weight: 1000;
   text-decoration: underline;  
   text-underline-offset: 3px;
   text-decoration-color: #FBB4CA;
   text-decoration-thickness: 2px;
-  font-weight: 1000;
 }
 
 a:hover {
-  font-weight: bolder;
-  text-decoration: inherit;
   background-color: #E2E5FF;
 }
 
 ul {
+  margin: 0px;
   padding-left: 7px;
   list-style-position: outside;
-  margin: 0px;
 }
 
 li {
@@ -62,6 +60,12 @@ li {
 
 .highlight {
   background-color: #E2E5FF;
+}
+
+.footer {
+  padding-top: 30px;
+  color: #C0C0C0;
+  font-style: italic;
 }
 
 /* DESKTOP */
