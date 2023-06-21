@@ -6,6 +6,7 @@ html, body {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 5px;
+  text-align: justify;
 }
 
 [class*="col-"] {
@@ -14,18 +15,26 @@ html, body {
 
 h1 {
   font-size: 30px;
-  font-weight: 1000;
   margin-bottom: 30px;
+  text-align: start;
+}
+
+h1 a {
+  text-decoration: inherit;
+}
+
+h1 a:hover {
+  background-color: inherit;
 }
 
 h2 {
   font-size: 20px;
   margin-bottom: 10px;
+  text-align: start;
 }
 
 a {
   color: inherit;
-  font-style: inherit;
   font-weight: 1000;
   text-decoration: underline;  
   text-underline-offset: 3px;
@@ -60,6 +69,13 @@ li {
 
 .highlight {
   background-color: #E2E5FF;
+  border-radius: 1ch;
+  padding-inline: .5ch;
+}
+
+.divider {
+  padding: 20px;
+  text-align:center;
 }
 
 .footer {
