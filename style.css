@@ -7,32 +7,18 @@ html, body {
   padding-left: 5px;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.highlight {
-  background-color: #E2E5FF;
-}
-
 [class*="col-"] {
   width: 100%;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 1000;
   margin-bottom: 30px;
 }
 
-.accent {
-  color: #FBB4CA;
-}
-
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -40,21 +26,26 @@ a {
   color: inherit;
   font-style: inherit;
   text-decoration: underline;  
-  position: relative;
   text-underline-offset: 3px;
   text-decoration-color: #FBB4CA;
   text-decoration-thickness: 2px;
-  font-weight: bold;
+  font-weight: 1000;
 }
 
 a:hover {
-  font-style: inherit;
+  font-weight: bolder;
   text-decoration: inherit;
   background-color: #E2E5FF;
 }
 
 ul {
+  padding-left: 7px;
+  list-style-position: outside;
+}
 
+li {
+  list-style-type: '✳';
+  padding-inline-start: 10px;
 }
 
 .block{
@@ -63,6 +54,13 @@ ul {
   padding: 0px 20px;
 }
 
+.accent {
+  color: #FBB4CA;
+}
+
+.highlight {
+  background-color: #E2E5FF;
+}
 
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
