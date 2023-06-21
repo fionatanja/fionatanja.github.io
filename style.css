@@ -4,6 +4,7 @@ html, body {
   font-family: 'Nunito';
   font-size: 15px;
   padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 5px;
 }
 
@@ -41,6 +42,7 @@ a:hover {
 ul {
   padding-left: 7px;
   list-style-position: outside;
+  margin: 0px;
 }
 
 li {
@@ -52,7 +54,6 @@ li {
   border-left: 7px solid;
   border-color: #E2E5FF;
   padding: 0px 20px;
-  outside
 }
 
 .accent {
@@ -71,7 +72,7 @@ li {
   }
 
   [class*="col-"] {
-    float: left;
+    float: center;
   }
 
   h1 {
